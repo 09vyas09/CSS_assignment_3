@@ -1,0 +1,23 @@
+.column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .button{
+      background-color: #D3D3D3	;
+  }
+
+  .table1{
+    border-right: 2px solid black;
+  }
+
+  .table2{
+    border-right: 2px solid black;
+  }
